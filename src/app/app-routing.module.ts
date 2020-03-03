@@ -4,7 +4,7 @@ import { ContactComponent } from './contact/contact.component'
 import { HomeComponent } from './home/home.component'
 import { LoginComponent } from './login/login.component'
 import { ProductComponent } from './product/product.component'
-
+//comment new
 
 const routes: Routes = [
   { path: '', redirectTo: '/home', pathMatch: 'full' },
