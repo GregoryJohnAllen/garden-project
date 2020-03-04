@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { Plant } from '../plant'
+import { ApiService } from '../api.service'
 
 @Component({
   selector: 'app-product',
@@ -6,10 +8,18 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./product.component.css']
 })
 export class ProductComponent implements OnInit {
+  plants: any
 
-  constructor() { }
+  constructor(private plantFetch:ApiService) { }
 
   ngOnInit(): void {
+    this.getPlants()
   }
 
-}
+  getPlants() {
+    this.plantFetch.getPlants().subscribe((data) => {
+      this.plants = data
+    })
+    }
+  }
+
