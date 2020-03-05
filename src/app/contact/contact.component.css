@@ -1,5 +1,7 @@
 #body{
+
     background-image: url('https://images.unsplash.com/photo-1523810192022-5a0fb9aa7ff8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1347&q=80');
+
     padding: 0;
     background-size: cover;
     background-attachment: fixed;
@@ -8,6 +10,7 @@
     
 
 }
+
 
 .title{
     font-size: 80px;
@@ -42,11 +45,13 @@ h1{
     padding: 10%;
     text-align: center;
 
+
 }
 
 #sendButton{
     color: white;
     background-color: green;
+
     font-size: 20px;
     border-radius: 10px;
     padding: 1%;
@@ -104,3 +109,5 @@ h1{
     border-left: 6px solid green;
     height: 500px;
   }
+
+}
