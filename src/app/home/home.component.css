@@ -4,7 +4,7 @@ html,
 body,
 header,
 .view {
-  height: auto;
+  min-height: 50vh;
 }
 
 @media (max-width: 740px) {
@@ -12,6 +12,18 @@ header,
   body,
   header,
   .view {
-    height: auto;
+    height: 100vh;
   }
+}
+
+h1,h5 {
+  color: white;
+}
+
+h3, h6 {
+  margin: 70px;
+}
+
+.card {
+  margin: 70px;
 }
