@@ -30,3 +30,7 @@ h1{
     color: white;
     background-color: green;
 }
+
+form {
+    margin: 50px;
+}

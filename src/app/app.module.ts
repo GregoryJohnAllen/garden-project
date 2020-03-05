@@ -22,8 +22,9 @@ import { SubscribeComponent } from './subscribe/subscribe.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule,
+    AppRoutingModule ,
     HttpClientModule
+    
   ],
   providers: [],
   bootstrap: [AppComponent]
